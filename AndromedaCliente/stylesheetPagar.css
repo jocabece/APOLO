@@ -1,0 +1,60 @@
+header{
+    border-radius: 1px;
+}
+
+h1{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+
+
+}
+
+body{
+    background: rgb(96, 175, 154);
+}
+
+*{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+label{
+    display: block;
+    margin: .5em 0 0 0;
+}
+
+td{
+    padding-bottom:10px;
+    padding-top:10px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #0cc3cb;
+    border: 0;
+    width: 500px;
+    height: 30px;
+    font-size: 18px;
+}
+
+
+
+.formulario{
+    text-align: center;
+    margin-left: 25%;
+}
+
+p{
+    text-align: center;
+    padding-top: 2.5em;
+}
+.button{
+    text-decoration: none;
+    height: 45px;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: darkgray ;
+    border-radius: 5px;
+}

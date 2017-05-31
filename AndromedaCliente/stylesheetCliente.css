@@ -1,0 +1,90 @@
+body{
+    font-family: Tahoma;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    margin: 0;
+    display:block;
+}
+
+.container {
+    width: 90%;
+    height: 70%;
+    background-color: white;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+.left {
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    float: left;
+    background-image: url("FondoLeft.jpg");
+}
+
+
+
+.right {
+    height: 100%;
+    width: 60%;
+    background-color: #d34b47;
+    float: left;
+}
+
+.header-form {
+    width: 100%;
+    height: 10%;
+    padding-top: 5%;
+    background-color: #469094 ;
+    font-size: x-large;
+    text-align: center;
+}
+
+.form1 {
+    width: 60%;
+    height: 70%;
+    POSITION:absolute;
+    top:20%;
+    background-color: #d34b47 ;
+    text-align: center;
+}
+
+input[type="text"],input[type="password"],input[type="number"] {
+    font-family: Tahoma;
+    color: black;
+    height: 50px;
+    width:500px;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-color: #77b6b9;
+    padding-left: 50px;
+    border-radius: 30px;
+    outline: none;
+    margin: 2%;
+
+}
+
+
+.button{
+
+    text-decoration: none;
+    height: 50px;
+    padding: 15px 30px;
+    color: black;
+    background-color: #ffe1a3;
+    border-radius: 5px;
+
+}
+
+#crearcuenta{
+    POSITION: RELATIVE;
+    WIDTH:30%;
+    HEIGHT:15%;
+    top: 40px;
+    left: 35%;
+    text-align:center;
+}
+
+
