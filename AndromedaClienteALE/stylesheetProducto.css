@@ -1,0 +1,135 @@
+body{
+    background-color: white;
+}
+
+.caja{
+    background-color: #469094;
+    width:90%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border:solid black;
+    border-radius: 2%;
+}
+
+.carrito{
+    width: 30%;
+    height:80%;
+    border-right-style: dashed;
+    border-color:black;
+    overflow-y: auto;
+}
+table {
+    width: 80%;
+    color: #000;
+    border-bottom-style:ridge;
+    border-color: #f5ca73;
+    margin-left: 10%;
+    padding-top:10%;
+    overflow-y:auto;
+}
+
+.abajo{
+    width: 30%;
+    height: 20%;
+    background-color:white;
+    border-right-style: dashed;
+    boder-color:black;
+    border-bottom-left-radius: 2%;
+}
+
+.calculator {
+    width:35%;
+    height:100%;
+    text-align: center;
+    float: right;
+}
+
+.calculator button {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    width: 40px;
+    height:35px;
+}
+
+#Pagar{
+    width:65%;
+    height:100%;
+    margin:0;
+    padding: 0px;
+    color: white;
+    background-color: grey;
+    border: none;
+    border-bottom-left-radius: 2%;
+
+}
+
+#Pagar:hover {
+    background-color:#f5ca73 ;
+}
+
+.main {
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    background-color:white;
+    border-left-color: black;
+    border-left-style: dashed;
+    border-right-color: black;
+    border-right-style: solid;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    position:absolute;
+    top: 0%;
+    left: 30%;
+    overflow-y:auto;
+}
+
+.header1{
+    width:100%;
+    height:5%;
+    background-color: beige;
+    color: black;
+    font-size: large;
+    text-align: center;
+    position:absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.categorias{
+    width:100%;
+    height:6%;
+    position:absolute;
+    top: 5%;
+    left: 0%;
+    background-color:white;
+}
+
+.categorias button{
+    margin-top: 10px;
+    margin-left:10px;
+    margin-right:10px;
+    width: 70px;
+    height:35px;
+    text-align: center;
+}
+
+.header2{
+    width:100%;
+    height:5%;
+    background-color: beige;
+    color: black;
+    font-size: large;
+    position:absolute;
+    top: 12%;
+    left: 0%;
+    text-align: center;
+}
+
+.buscador{
+    position: absolute;
+    right:0%;
+    top:12%;
+}
