@@ -1,0 +1,190 @@
+body{
+    background-image: url("bg1.jpg");
+
+}
+
+@font-face {
+    font-family:'Banana';
+    src: url('BambooGothic-Book.otf')
+}
+
+.caja{
+    background-color:rgba(255,255,255,0.9);
+    width:90%;
+    height: 85%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border:solid black;
+    border-radius: 2%;
+}
+
+.carrito{
+    width: 30%;
+    height:80%;
+    border-right-style: dashed;
+    border-color:black;
+    overflow-y: auto;
+}
+table {
+    font-family: Calibri;
+    width: 80%;
+    color: #000;
+    margin-left: 10%;
+    padding-top:5%;
+    overflow-y:auto;
+}
+th, td {
+    border: 1px solid transparent;
+    padding: 10px;
+    text-align: left;
+}
+
+.abajo{
+    width: 30%;
+    height: 20%;
+    background-color:rgba(255,255,255,0.9);
+    border-right-style: dashed;
+    boder-color:black;
+    border-bottom-left-radius: 15%;
+}
+
+.calculator {
+    font-size: small;
+    width:40%;
+    height:100%;
+    text-align: center;
+    float: right;
+}
+
+.calculator button {
+    color: white;
+    background-color: rgba(23,11,12,0.73);
+    margin-bottom: 2px;
+    margin-top: 2px;
+    width: 30px;
+    height:20px;
+    border:none;
+}
+
+#pagar{
+    font-family: Calibri;
+    font-size: 32px;
+    width:60%;
+    height:100%;
+    margin:0;
+    text-decoration: none;
+    padding: 0px;
+    color: white;
+    background-color: #f5ca73 ;
+    border: none;
+    border-bottom-left-radius: 10%;
+}
+
+#pagar:hover {
+    background-color:rgba(215,24,27,0.79) ;
+}
+
+.main {
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    background-color:white;
+    border-left-color: black;
+    border-left-style: dashed;
+    border-right-color: black;
+    border-right-style: solid;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    position:absolute;
+    top: 0%;
+    left: 30%;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+
+.header1{
+    font-family: Banana;
+    width:100%;
+    height:6%;
+    background-color: rgba(140,201,58,0.5);
+    color: black;
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: center;
+    position:absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.categorias{
+    width:100%;
+    height:15%;
+    position:absolute;
+    top: 6%;
+    left: 0%;
+}
+
+.categorias button{
+    font-family: Calibri;
+    font-size: small;
+    color: white;
+    background-color: #f5ca73;
+    padding-top: 0;
+    margin-top: 12px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 120px;
+    height:25px;
+    border:none;
+    text-align: center;
+}
+
+.header2{
+    width:100%;
+    height:6%;
+    background-color: rgba(140,201,58,0.5);
+    position:absolute;
+    top: 21%;
+    left: 0%;
+    text-align: center;
+}
+
+#titulo2{
+    font-family: Banana;
+    margin: 0;
+    padding: 0px;
+    color: black;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.buscador{
+    position: absolute;
+    right:0%;
+    top:12%;
+}
+
+.productos {
+    position:absolute;
+    top:28%;
+    left:5%;
+    width:90%;
+    height:80%;
+    background-color:white ;
+}
+
+footer {
+    width: 100%;
+    heigth:15%;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    bottom:0;
+    left:0;
+    background: rgba(255,255,255,0.9);
+}
+
+.pie {
+    text-align: center;
+    font-family: Calibri;
+}

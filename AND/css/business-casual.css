@@ -1,0 +1,285 @@
+/*!
+ * Start Bootstrap - Business Casual (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+
+   background: url('../img/bg1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Calibri";
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #ffffff;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #03ab9e;
+    background: rgba(140, 201, 58, 0.9);
+    opacity: 0.9;
+}
+.box1 {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #03ab9e;
+    background: rgba(255, 84, 188, 0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #fbfbfb solid 34px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    background: #ff4656;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+@font-face {
+    font-family: 'bamboo';
+    src:  url('BambooGothic-Book.otf');
+
+}
+@media screen and (min-width:768px) {
+    .brand1 {
+        display: inherit;
+        margin: 0;
+        padding: 10px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(152, 194, 12, 0.5);
+        font-family: bamboo;
+        font-size: 10em;
+        font-weight: 700;
+        line-height: normal;
+        color: #000000;
+    }
+    .brand {
+        display: inherit;
+        background-color: rgba(152,194,12,0.5);
+        margin: 0;
+        padding: 10px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(140, 201, 58, 0.5);
+        font-family: bamboo;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #000000;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #feff49;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+    }
+
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+a#scrollUp {
+    bottom: 0px;
+    right: 10px;
+    padding: 5px 10px;
+    background: #039386;
+    color: #FFF;
+    -webkit-animation: bounce 2s ease infinite;
+    animation: bounce 2s ease infinite;
+}
+.boton_Nuevo{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    background-color:#f5ca73;
+    border-color: #98c20c;
+    margin-top: 1%;
+}
+.boton_Borrar{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    background-color:#f5ca73;
+    border-color: #98c20c;
+    margin-top: 1%;
+}
+.containerFormulario {
+    padding: 50px;
+    border: dashed #ff4f4d 2px;
+    border-radius: 10px;
+    width: 150%;
+    overflow: auto;
+    height: 500px;
+}
+.btn-primary{
+    color: #fff;
+    background-color:#f5ca73;
+    border-color: #98c20c;
+    margin-top: 1%;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #98c20c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #98c20c;
+    border-radius: 30px;
+    padding: 1%;
+    -webkit-box-shadow: inset 0 1px 1px rgba(9,9,9,.075);
+    box-shadow: inset 0 1px 1px rgba(184, 10, 22, 0.07);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 600px;
+    background: #57a3f2;
+
+}

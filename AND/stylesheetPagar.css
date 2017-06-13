@@ -1,0 +1,162 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("bg1.jpg");
+    margin: 0;
+    display:block;
+}
+
+@font-face {
+    font-family:'Banana';
+    src: url('BambooGothic-Book.otf')
+}
+
+.container3 {
+    font-family:Calibri;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+}
+
+.titulo{
+    font-family: Banana;
+    padding:0;
+    margin-top: 0;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    color:black;
+    position: absolute;
+    top:0%;
+    width: 100%;
+    height:11%;
+    background-color: rgba(140,201,58,0.5);
+    text-shadow: 1px 1px 2px rgba(152, 194, 12, 0.5);
+}
+
+.formPagar {
+    font-family:Calibri;
+    width: 100%;
+    height: 78%;
+    POSITION:absolute;
+    top:11%;
+    background-color: rgba(255,255,255,0.9);
+    text-align: center;
+}
+
+.Total {
+    font-family: Calibri;
+    font-size: large;
+    text-align: center;
+    color:black;
+    width: 100%;
+    height: 3%;
+    padding-top: 1%;
+    position: absolute;
+    top:0%;
+}
+
+#carrito{
+    border-left:solid black 2px;
+    border-right:solid black 2px;
+    border-top:solid black 2px;
+    border-bottom:solid black 2px;
+    background-image: url(carrito.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-size: 35px;
+    height: 50px;
+    width:50px;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 5px;
+    position: absolute;
+    right:10%;
+    top:10%;
+    display:flex;
+}
+
+.datos {
+    width:100%;
+    height: 90%;
+    position: absolute;
+    top:13%;
+    font-family: Calibri;
+    color:black;
+    font-size:20px;
+}
+
+input[type="text"],input[type="number"],input[type="email"] {
+    font-family: Calibri;
+    color: black;
+    height: 30px;
+    width:400px;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-color: #77b6b9;
+    padding-left: 20px;
+    outline: none;
+    margin: 5px;
+}
+
+#select1, #select2{
+    font-family: Calibri;
+    color: black;
+    height: 30px;
+    width:200px;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-color: #77b6b9;
+    padding-left: 20px;
+    outline: none;
+    margin: 1%;
+
+}
+.Terminos{
+    width:50%;
+    height:25%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    left:25%;
+    border:solid black 2px;
+    text-align: left;
+}
+
+.Acepto{
+    position:absolute;
+    top:81%;
+    left:44%;
+    color:black;
+    text-align: center;
+}
+
+#comprar{
+    font-family:Calibri;
+    text-decoration: none;
+    font-size: 15px;
+    height: 40px;
+    width:100px;
+    color: white;
+    background-color: #f5ca73;
+    border-radius: 5px;
+    border:none;
+}
+
+footer {
+    width: 100%;
+    heigth:15%;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    bottom:0;
+    left:0;
+    background: rgba(255,255,255,0.9);
+}
+
+.pie {
+    text-align: center;
+    font-family: Calibri;
+}
