@@ -1,0 +1,1 @@
+ALTER TABLE "public"."producto" ALTER COLUMN "imagen" TYPE bytea USING imagen::bytea
