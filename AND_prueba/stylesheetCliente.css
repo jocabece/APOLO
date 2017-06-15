@@ -1,0 +1,97 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("bg1.jpg");
+    margin: 0;
+    display:block;
+}
+
+@font-face {
+    font-family:'Banana';
+    src: url('BambooGothic-Book.otf')
+}
+
+.container2 {
+    font-family: Calibri;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+}
+
+.header-form {
+    display: inherit;
+    background-color: rgba(140,201,58,0.5);
+    padding: 10px 0 10px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(152, 194, 12, 0.5);
+    font-family: Banana;
+    font-size: 4em;
+    font-weight: 700;
+    line-height: normal;
+    color: black;
+}
+
+.form2 {
+    font-family:Calibri;
+    width: 100%;
+    height: 56%;
+    POSITION:absolute;
+    top:20%;
+    background-color: rgba(255,255,255,0.9);
+    text-align: center;
+}
+
+input[type="text"],input[type="password"],input[type="number"] {
+    font-family: Calibri;
+    color: black;
+    height: 45px;
+    width:500px;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-color: #77b6b9;
+    padding-left: 40px;
+    border-radius: 30px;
+    outline: none;
+    margin: 1%;
+}
+
+#iniciar{
+    font-family:Calibri;
+    text-decoration: none;
+    font-size: 22px;
+    height: 50px;
+    width:100px;
+    color: white;
+    background-color: #f5ca73;
+    border-radius: 5px;
+    border:none;
+
+}
+
+#crearcuenta{
+    font-family:Calibri;
+    POSITION: RELATIVE;
+    WIDTH:30%;
+    HEIGHT:15%;
+    top: 40px;
+    left: 35%;
+    text-align:center;
+}
+
+footer {
+    width: 100%;
+    heigth:15%;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    bottom:0;
+    left:0;
+    background: rgba(255,255,255,0.9);
+}
+
+.pie {
+    text-align: center;
+    font-family: Calibri;
+}

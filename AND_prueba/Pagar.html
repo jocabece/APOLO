@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ANDROMEDA</title>
+    <link href='stylesheetPagar.css' type='text/css' rel='stylesheet' >
+    <link rel="icon" href="MANZANAWEBFONDO.ico"/>
+</head>
+<body>
+
+<div class="container3">
+
+    <div class="titulo">
+        INFORMACIÓN DEL PAGO
+    </div>
+
+    <div class="formPagar">
+
+        <div class="Total">
+            TOTAL (Bs):
+            <a href = "Producto.html" id="carrito"></a>
+        </div>
+        <div class="datos">
+        <form>
+            Nombre en la tarjeta: <input type="text" name="nombre">
+            <br>
+            Número de tarjeta: <input type="number" name="numero">
+            <br>
+
+            Expira en: <select name="fechaExp" id="select1">
+
+                <option value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+
+            </select>
+
+            <select name="yearExp" id="select2">
+
+                <option value="1">2017</option>
+                <option value="2">2018</option>
+                <option value="3">2019</option>
+                <option value="4">2020</option>
+                <option value="5">2021</option>
+                <option value="6">2022</option>
+                <option value="7">2023</option>
+                <option value="8">2024</option>
+                <option value="9">2025</option>
+
+
+            </select>
+            <br>
+            Código de seguridad: <input type="number" name="codigo">
+            <br>
+            Dirección de entrega:<input type="text" name="direccion" >
+            <br>
+            Número de teléfono:<input type="number" name="numero" >
+            <br>
+            Email:<input type="email" name="email" >
+            <br>
+            <input type="checkbox" id="condiciones"> Acepto los <a href="Terminos.html">términos y condiciones</a><br>
+            <button type="submit" name ="submit" value="1" id="comprar">REALIZAR COMPRA</button>
+        </form>
+        </div>
+
+    </div>
+
+</div> <!--container end-->
+
+<footer>
+    <div class="pie">
+        <p>Copyright &copy; ANDROMEDA 2017</p>
+    </div>
+
+</footer>
+
+</body>
+</html>
