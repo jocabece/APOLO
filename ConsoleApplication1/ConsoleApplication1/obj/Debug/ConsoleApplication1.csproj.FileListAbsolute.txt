@@ -1,0 +1,8 @@
+D:\Ingenieria de Software\Proyecto Ing Software\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Ingenieria de Software\Proyecto Ing Software\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Ingenieria de Software\Proyecto Ing Software\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Ingenieria de Software\Proyecto Ing Software\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\Ingenieria de Software\Proyecto Ing Software\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Ingenieria de Software\Proyecto Ing Software\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\Ingenieria de Software\Proyecto Ing Software\ConsoleApplication1\ConsoleApplication1\bin\Debug\Newtonsoft.Json.dll
+D:\Ingenieria de Software\Proyecto Ing Software\ConsoleApplication1\ConsoleApplication1\bin\Debug\Newtonsoft.Json.xml
